@@ -1,3 +1,13 @@
+mediaelch (2.10.7-1) bookworm; urgency=medium
+
+  * release: Prepare next snapshot version v2.10.7-dev
+  * docs(README): Format sub-lists
+  * Drop the debianization from master branch
+  * Don't link with libcurl
+  * Add debianization for Bookworm (Qt6)
+
+ -- Philipp Rosenberger <code@iluminat23.org>  Wed, 27 Dec 2023 11:32:57 +0100
+
 mediaelch (2.10.4-1) bionic; urgency=medium
 
   * next release
