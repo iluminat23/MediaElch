@@ -1,0 +1,32 @@
+Source: mediaelch
+Section: misc
+Priority: optional
+Maintainer: Andre Meyering <info@andremeyering.de>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 13),
+               cmake,
+               libmediainfo-dev,
+               qt6-base-dev,
+               qt6-tools-dev,
+               qt6-multimedia-dev,
+               qt6-image-formats-plugins,
+               libqt6core5compat6-dev,
+               libqt6opengl6-dev,
+               libqt6svg6-dev,
+               libquazip1-qt6-dev,
+Homepage: https://mediaelch.github.io/mediaelch-doc/
+Rules-Requires-Root: no
+Vcs-Browser: https://github.com/Komet/MediaElch/
+Vcs-Git: https://github.com/Komet/MediaElch.git
+
+Package: mediaelch
+Architecture: any
+Depends: ${misc:Depends},
+         ${shlibs:Depends},
+         libmediainfo0v5,
+Description: Media Manager for Kodi
+ MediaElch is your Media Manager for handling movies, TV shows, concerts and
+ music in Kodi. It is designed to gather information from various movie
+ databases on the internet and store these information directly to Kodis
+ database or in nfo files. MediaElch is also downloading movie posters,
+ backdrops, fan arts and pictures of the actors.
