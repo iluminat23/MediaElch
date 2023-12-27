@@ -18,6 +18,7 @@ Build-Depends: debhelper-compat (= 13),
                qtmultimedia5-dev,
                qttools5-dev,
                qttools5-dev-tools,
+               libquazip1-qt5-dev,
 Homepage: https://mediaelch.github.io/mediaelch-doc/
 Rules-Requires-Root: no
 Vcs-Browser: https://github.com/Komet/MediaElch/
